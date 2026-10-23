@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #030712;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* Code styling */
+code {
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'JetBrains Mono', 'Roboto Mono', 'Cascadia Code', monospace;
+}
+
+pre {
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'JetBrains Mono', 'Roboto Mono', monospace;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(239, 68, 68, 0.3);
+  color: white;
+}
